@@ -1,0 +1,45 @@
+@media (max-width: 1000px) {
+  .lesson{
+    width:100%;
+    margin-bottom:50px;
+  }
+  .top-wrapper h1{
+   font-size:32px;
+  }
+  .heading h3{
+   font-size:20px;
+ }
+}
+
+@media (max-width: 670px) {
+  .lesson{
+    width:100%;
+  }
+  .header-right{
+    display:none;
+  }
+  .menu-icon{
+    display:block;
+  }
+  footer{
+    text-align:center;
+  }
+  .top-wrapper{
+    text-align:left;
+    padding-top:130px;
+  }
+ .top-wrapper h1{
+   font-size:24px;
+   line-height:36px;
+  }
+
+  .top-wrapper h2{
+    font-size:20px;
+    line-height:36px;
+  }
+  
+  .top-wrapper p{
+    font-size:14px;
+    line-height:20px;
+  }
+}
