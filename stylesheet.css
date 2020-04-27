@@ -1,0 +1,147 @@
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:inherit;
+}
+header{
+  background-color:rgba(45, 52, 54,1.0);
+  height:70px;
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding:0 10px;
+  margin:auto;
+
+}
+.top-wrapper{
+  padding-top:180px;
+  padding-bottom:150px;
+  color:white;
+  background-image:url(1538673.jpg);
+  background-size:cover;
+  text-align: center;
+  background-origin:padding-box;
+}
+
+h1{
+  opacity:1;
+  font-size:40px;
+  letter-spacing:5px;
+  margin-bottom:10px;
+}
+
+p{
+  opacity:1;
+  margin-bottom:3px;
+}
+
+.header-right{
+  float:right;
+  background-color:rgba(178, 190, 195,1.0);
+  transition:all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(45, 52, 54,1.0);
+}
+.header-left{
+  color:white;
+  float:left;
+  padding:25px;
+}
+
+.header-right a{
+  line-height:70px;
+  padding-left:25px;
+  padding-right:25px;
+  color:white;
+  display:block;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+.lesson-wrapper{
+
+ padding-bottom:100px;
+ background-color:white;
+ text-align:center;
+}
+.clear{
+  clear:left;
+}
+.heading{
+  padding-top:50px;
+  padding-bottom:30px;
+  color:#2d3436;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon{
+  position:relative;
+}
+
+.lesson-icon p{
+ top:0px;
+ width:100%;
+ font-size:20px;
+ font-weight: bold;
+}
+
+.text-contents{
+  width:80%;
+  display:inline-block;
+  margin-top:20px;
+  font-size:15px;
+}
+
+.message-wrapper{
+  background-color:#f3a683;
+  height:250px;
+  text-align:center;
+}
+.message{
+  background-color:#4b4b4b;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:20px;
+  padding-right:20px;
+  color:white;
+  cursor:pointer;
+  box-shadow:0 9px #b2bec3;
+}
+
+.heading h3{
+  font-weight:lighter;
+}
+
+span:hover{
+  background-color: rgba(220, 221, 225,1.0);
+}
+
+footer{
+  background-color:rgba(45, 52, 54,1.0);
+  height:50px;
+  width:auto;
+  color:white;
+  padding-top:20px;
+}
