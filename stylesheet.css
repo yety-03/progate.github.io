@@ -67,17 +67,9 @@ p{
   padding-left:25px;
   padding-right:25px;
   color:white;
-  display:block;
 }
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display:none;
-}
-.lesson-wrapper{
 
+.lesson-wrapper{
  padding-bottom:100px;
  background-color:white;
  text-align:center;
