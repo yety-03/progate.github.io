@@ -15,12 +15,6 @@
   .lesson{
     width:100%;
   }
-  .header-right{
-    display:none;
-  }
-  .menu-icon{
-    display:block;
-  }
   footer{
     text-align:center;
   }
@@ -37,7 +31,7 @@
     font-size:20px;
     line-height:36px;
   }
-  
+
   .top-wrapper p{
     font-size:14px;
     line-height:20px;
